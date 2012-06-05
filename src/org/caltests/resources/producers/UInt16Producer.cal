@@ -1,0 +1,13 @@
+package org.caltests.resources.producers;
+
+actor UInt16Producer () ==> uint(size=16) u16Out :
+	
+	int(size=16) count := 0;
+
+	Produce : action ==> u16Out:[out]
+	var
+		int(size=16) out := count
+	do
+		count := count + 1;
+	end
+end

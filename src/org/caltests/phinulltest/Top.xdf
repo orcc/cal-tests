@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XDF name="Top">
+    <Instance id="INProd">
+        <Class name="org.caltests.resources.producers.Int16Producer"/>
+    </Instance>
+    <Instance id="DCSplit">
+        <Class name="org.caltests.phinulltest.Mgnt_DCSplit"/>
+    </Instance>
+    <Instance id="ACCons">
+        <Class name="org.caltests.resources.consumers.Int16Console"/>
+    </Instance>
+    <Instance id="DCCons">
+        <Class name="org.caltests.resources.consumers.Int16Console"/>
+    </Instance>
+    <Connection dst="DCCons" dst-port="Int16_IN" src="DCSplit" src-port="DC"/>
+    <Connection dst="ACCons" dst-port="Int16_IN" src="DCSplit" src-port="AC"/>
+    <Connection dst="DCSplit" dst-port="IN" src="INProd" src-port="i16Out"/>
+</XDF>

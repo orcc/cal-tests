@@ -1,0 +1,9 @@
+package org.caltests.resources.consumers;
+
+actor Int16Console () int(size=16) Int16_IN ==>  :
+
+	Consume : action Int16_IN:[int_value] ==>
+	do
+		println("stdvalue : " + int_value);
+	end
+end

@@ -1,0 +1,9 @@
+package org.caltests.resources.consumers;
+
+actor UInt16Console () uint(size=16) u16In ==>  :
+
+	action u16In:[unsigned_value] ==>
+	do
+		println("stdvalue : " + unsigned_value);
+	end
+end
