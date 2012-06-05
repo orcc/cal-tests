@@ -1,0 +1,7 @@
+package org.caltests.resources.producers;
+
+actor BoolProducer () ==> bool bOut :
+	
+	Produce : action ==> bOut:[ true ]
+	do	end
+end
