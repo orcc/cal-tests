@@ -1,0 +1,10 @@
+package org.caltests.ifstructinport;
+
+actor bad_behaviour () bool bIn ==> int(size=16) i16Out :
+
+
+  vld_direct: action bIn:[ sign ]  ==>  i16Out:[if sign then -level else level end]
+  var
+  	int (size=16) level := 20
+  end
+end

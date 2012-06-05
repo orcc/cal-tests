@@ -1,0 +1,18 @@
+package org.caltests.ifstructinport;
+
+actor ref () bool bIn ==> int(size=16) i16Out :
+
+
+  vld_direct: action bIn:[ sign ]  ==>  i16Out:[outValue]
+  var
+  	int (size=16) level := 20,
+  	int (size=16) outValue
+  do
+  	outValue :=
+	  	if sign then
+	  		 -level
+		else
+			level
+		end;
+  end
+end

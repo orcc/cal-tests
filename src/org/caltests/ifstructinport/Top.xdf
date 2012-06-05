@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XDF name="Top">
+    <Instance id="bool_producer">
+        <Class name="org.caltests.resources.producers.BoolProducer"/>
+    </Instance>
+    <Instance id="ref">
+        <Class name="org.caltests.ifstructinport.ref"/>
+    </Instance>
+    <Instance id="bad">
+        <Class name="org.caltests.ifstructinport.bad_behaviour"/>
+    </Instance>
+    <Instance id="ref_cons">
+        <Class name="org.caltests.resources.consumers.Int16Console"/>
+    </Instance>
+    <Instance id="bad_cons">
+        <Class name="org.caltests.resources.consumers.Int16Console"/>
+    </Instance>
+    <Connection dst="ref" dst-port="bIn" src="bool_producer" src-port="bOut"/>
+    <Connection dst="bad" dst-port="bIn" src="bool_producer" src-port="bOut"/>
+    <Connection dst="bad_cons" dst-port="Int16_IN" src="bad" src-port="i16Out"/>
+    <Connection dst="ref_cons" dst-port="Int16_IN" src="ref" src-port="i16Out"/>
+</XDF>
