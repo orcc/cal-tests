@@ -8,9 +8,15 @@
     </Instance>
     <Instance id="ACCons">
         <Class name="org.caltests.resources.consumers.Int16Console"/>
+        <Parameter name="S">
+            <Expr kind="Literal" literal-kind="String" value="AC"/>
+        </Parameter>
     </Instance>
     <Instance id="DCCons">
         <Class name="org.caltests.resources.consumers.Int16Console"/>
+        <Parameter name="S">
+            <Expr kind="Literal" literal-kind="String" value="DC"/>
+        </Parameter>
     </Instance>
     <Connection dst="DCCons" dst-port="Int16_IN" src="DCSplit" src-port="DC"/>
     <Connection dst="ACCons" dst-port="Int16_IN" src="DCSplit" src-port="AC"/>

@@ -11,9 +11,15 @@
     </Instance>
     <Instance id="ref_cons">
         <Class name="org.caltests.resources.consumers.Int16Console"/>
+        <Parameter name="S">
+            <Expr kind="Literal" literal-kind="String" value="ref"/>
+        </Parameter>
     </Instance>
     <Instance id="bad_cons">
         <Class name="org.caltests.resources.consumers.Int16Console"/>
+        <Parameter name="S">
+            <Expr kind="Literal" literal-kind="String" value="bad"/>
+        </Parameter>
     </Instance>
     <Connection dst="ref" dst-port="bIn" src="bool_producer" src-port="bOut"/>
     <Connection dst="bad" dst-port="bIn" src="bool_producer" src-port="bOut"/>

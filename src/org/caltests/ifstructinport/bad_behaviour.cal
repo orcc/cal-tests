@@ -7,4 +7,5 @@ actor bad_behaviour () bool bIn ==> int(size=16) i16Out :
   var
   	int (size=16) level := 20
   end
+  
 end
