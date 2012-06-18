@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XDF name="Top">
+    <Instance id="Producer">
+        <Class name="org.caltests.resources.producers.Int16Producer"/>
+    </Instance>
+    <Instance id="Console">
+        <Class name="org.caltests.resources.consumers.Int16Console"/>
+    </Instance>
+    <Instance id="Ternary">
+        <Class name="org.caltests.instternary.InstTernary"/>
+    </Instance>
+    <Connection dst="Ternary" dst-port="Int16_IN" src="Producer" src-port="i16Out"/>
+    <Connection dst="Console" dst-port="Int16_IN" src="Ternary" src-port="Int16_OUT"/>
+</XDF>

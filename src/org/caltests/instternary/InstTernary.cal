@@ -1,0 +1,11 @@
+package org.caltests.instternary;
+
+actor InstTernary () int(size=16) Int16_IN ==> int(size=16) Int16_OUT :
+
+	Consume : action Int16_IN:[int_value] ==> Int16_OUT:[out_var]
+	var
+		int(size=16) out_var
+	do
+		out_var := if int_value > 5 then 0 else int_value end;
+	end
+end
