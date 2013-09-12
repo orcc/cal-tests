@@ -1,4 +1,4 @@
-package org.caltests.ifstructinport;
+package org.caltests.ifstructinportnameChanged;
 
 actor bad_behaviour () bool bIn ==> int(size=16) i16Out :
 

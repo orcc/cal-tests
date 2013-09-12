@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<layout>
-	<vertices>
-		<vertex id="INProd" x="110" y="194"/>
-		<vertex id="DCSplit" x="295" y="200"/>
-		<vertex id="DCCons" x="554" y="152"/>
-		<vertex id="ACCons" x="610" y="272"/>
-	</vertices>
-</layout>
