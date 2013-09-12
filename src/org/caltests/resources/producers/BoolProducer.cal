@@ -1,7 +1,10 @@
 package org.caltests.resources.producers;
 
+import org.caltests.units.*;
+
 actor BoolProducer () ==> bool bOut :
-	
+
 	Produce : action ==> bOut:[ true ]
-	do	end
+	do
+	end
 end

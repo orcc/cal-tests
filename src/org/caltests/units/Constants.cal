@@ -1,0 +1,5 @@
+package org.caltests.units;
+
+unit Constants :
+	uint CONST_FOO = 9;
+end
