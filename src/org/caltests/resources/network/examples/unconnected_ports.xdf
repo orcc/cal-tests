@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XDF name="unconnected_ports">
+    <Port kind="Input" name="qs">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="32"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Port kind="Output" name="fd">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="32"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Instance id="inst1">
+        <Class name="org.caltests.realactors.Algo_IntraPred_LUMA_4x4"/>
+    </Instance>
+    <Instance id="gf">
+        <Class name="art.art_DDRModel"/>
+    </Instance>
+    <Connection dst="inst1" dst-port="AVAIL" src="gf" src-port="RD"/>
+</XDF>
