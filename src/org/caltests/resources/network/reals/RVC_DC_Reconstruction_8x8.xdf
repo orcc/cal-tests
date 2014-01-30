@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XDF name="RVC_DC_Reconstruction_8x8">
+    <Port kind="Input" name="QFS_DC">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="13"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Port kind="Input" name="QP">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="6"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Port kind="Input" name="WIDTH">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="16"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Port kind="Input" name="BTYPE">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="4"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Port kind="Input" name="ACCODED">
+        <Type name="bool"/>
+    </Port>
+    <Port kind="Input" name="ACPRED">
+        <Type name="bool"/>
+    </Port>
+    <Port kind="Output" name="PTR">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="8"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Port kind="Output" name="AC_PRED_DIR">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="3"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Port kind="Output" name="PREV_QUANT">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="6"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Port kind="Output" name="SIGNED">
+        <Type name="bool"/>
+    </Port>
+    <Port kind="Output" name="QF_DC">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="13"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Port kind="Output" name="QUANT">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="6"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Instance id="addressing"/>
+    <Instance id="invpred"/>
+    <Connection dst="" dst-port="invpred" src="" src-port="QFS_DC"/>
+    <Connection dst="" dst-port="invpred" src="" src-port="addressing"/>
+    <Connection dst="" dst-port="invpred" src="" src-port="addressing"/>
+    <Connection dst="" dst-port="invpred" src="" src-port="addressing"/>
+    <Connection dst="" dst-port="PTR" src="" src-port="invpred"/>
+    <Connection dst="" dst-port="AC_PRED_DIR" src="" src-port="invpred"/>
+    <Connection dst="" dst-port="SIGNED" src="" src-port="invpred"/>
+    <Connection dst="" dst-port="QF_DC" src="" src-port="invpred"/>
+    <Connection dst="" dst-port="QUANT" src="" src-port="invpred"/>
+    <Connection dst="" dst-port="invpred" src="" src-port="QP"/>
+    <Connection dst="" dst-port="PREV_QUANT" src="" src-port="invpred"/>
+    <Connection dst="" dst-port="addressing" src="" src-port="WIDTH"/>
+    <Connection dst="" dst-port="invpred" src="" src-port="WIDTH"/>
+    <Connection dst="" dst-port="invpred" src="" src-port="ACCODED"/>
+    <Connection dst="" dst-port="invpred" src="" src-port="ACPRED"/>
+    <Connection dst="" dst-port="addressing" src="" src-port="BTYPE"/>
+    <Connection dst="" dst-port="invpred" src="" src-port="BTYPE"/>
+</XDF>
