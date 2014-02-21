@@ -1,0 +1,17 @@
+package org.caltests.loopserrors;
+
+import std.stdio.Source.*;
+
+actor loop_actor () ==> :
+
+	Main : action ==> 
+	do
+		println("START");
+		foreach uint(size=8) i in 0 .. -1 do
+			println(" -> " + i);
+		end
+		println("END");
+		source_exit(0);
+	end
+
+end

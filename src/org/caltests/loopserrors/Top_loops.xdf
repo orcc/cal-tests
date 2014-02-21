@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XDF name="Top_loops">
+    <Instance id="Loop">
+        <Class name="org.caltests.loopserrors.loop_actor"/>
+    </Instance>
+</XDF>
