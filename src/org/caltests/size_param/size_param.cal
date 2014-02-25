@@ -1,0 +1,12 @@
+
+package org.caltests.size_param;
+
+actor size_param(int SIZE=8)
+
+	int(size=SIZE) In ==> int(size=SIZE) Out:
+
+	action In:[token] ==> Out:[token]
+	do
+		print("my size is " + SIZE);
+	end
+end
