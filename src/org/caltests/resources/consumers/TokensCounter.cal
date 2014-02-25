@@ -1,0 +1,18 @@
+package org.caltests.resources.consumers;
+
+import std.stdio.Source.*;
+
+actor TokensCounter(int modulo = 20) uint(size=8) u8_input ==>  :
+
+	int cpt := 0;
+
+	action u8_input:[tokens] repeat modulo ==>
+	do
+		println(modulo + " tokens received. Last value is " + tokens[modulo-1]);
+		cpt := cpt +1 ;
+		
+		if(cpt = 500) then
+			source_exit(0);
+		end
+	end
+end
