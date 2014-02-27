@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XDF name="size_tests">
-    <Instance id="ENDRY">
+    <Instance id="test_instance">
         <Class name="org.caltests.size_param.size_param"/>
         <Parameter name="SIZE">
             <Expr kind="Literal" literal-kind="Integer" value="8"/>
@@ -12,6 +12,6 @@
     <Instance id="display">
         <Class name="org.caltests.resources.consumers.UInt16Console"/>
     </Instance>
-    <Connection dst="ENDRY" dst-port="In" src="source" src-port="i16Out"/>
-    <Connection dst="display" dst-port="u16In" src="ENDRY" src-port="Out"/>
+    <Connection dst="test_instance" dst-port="In" src="source" src-port="i16Out"/>
+    <Connection dst="display" dst-port="u16In" src="test_instance" src-port="Out"/>
 </XDF>
