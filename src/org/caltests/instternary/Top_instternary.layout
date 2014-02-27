@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<layout>
-	<vertices>
-		<vertex id="Producer" x="68" y="72"/>
-		<vertex id="Console" x="527" y="78"/>
-		<vertex id="Ternary" x="276" y="80"/>
-	</vertices>
-</layout>
