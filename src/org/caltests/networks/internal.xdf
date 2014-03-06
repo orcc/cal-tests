@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XDF name="internal">
+    <Port kind="Input" name="IN1">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="32"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Port kind="Input" name="IN2">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="32"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Port kind="Output" name="OUT1">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="32"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Port kind="Output" name="OUT2">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="32"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Instance id="instance_1">
+        <Class name="org.caltests.instternary.InstTernary"/>
+    </Instance>
+    <Instance id="instance_2">
+        <Class name="org.caltests.instternary.InstTernary"/>
+    </Instance>
+    <Connection dst="instance_1" dst-port="Int16_IN" src="" src-port="IN1"/>
+    <Connection dst="instance_2" dst-port="Int16_IN" src="" src-port="IN2"/>
+    <Connection dst="" dst-port="OUT1" src="instance_1" src-port="Int16_OUT"/>
+    <Connection dst="" dst-port="OUT2" src="instance_2" src-port="Int16_OUT"/>
+</XDF>

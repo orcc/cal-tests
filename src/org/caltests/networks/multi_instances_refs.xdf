@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XDF name="multi_instances_refs">
+    <Instance id="BoolProd">
+        <Class name="org.caltests.resources.producers.BoolProducer"/>
+    </Instance>
+    <Instance id="Int16Prod_3">
+        <Class name="org.caltests.resources.producers.Int16Producer"/>
+    </Instance>
+    <Instance id="UInt16Prod">
+        <Class name="org.caltests.resources.producers.UInt16Producer"/>
+    </Instance>
+    <Instance id="instance_4">
+        <Class name="org.caltests.resources.realactors.Algo_Merge_4x4_to_16x16_norasterscan"/>
+    </Instance>
+    <Instance id="instance_5">
+        <Class name="org.caltests.resources.realactors.Algo_IntraPred_LUMA_4x4"/>
+    </Instance>
+    <Instance id="internal_2">
+        <Class name="org.caltests.networks.internal"/>
+    </Instance>
+    <Instance id="I16Console_2">
+        <Class name="org.caltests.resources.consumers.Int16Console"/>
+    </Instance>
+    <Instance id="TokensCounter_1">
+        <Class name="org.caltests.resources.consumers.TokensCounter"/>
+    </Instance>
+    <Instance id="U16Console">
+        <Class name="org.caltests.resources.consumers.UInt16Console"/>
+    </Instance>
+    <Instance id="TokensCounter_2">
+        <Class name="org.caltests.resources.consumers.TokensCounter"/>
+    </Instance>
+    <Instance id="I16Console_1">
+        <Class name="org.caltests.resources.consumers.Int16Console"/>
+    </Instance>
+    <Instance id="internal_1">
+        <Class name="org.caltests.networks.internal"/>
+    </Instance>
+    <Instance id="Int16Prod_1">
+        <Class name="org.caltests.resources.producers.Int16Producer"/>
+    </Instance>
+    <Instance id="Int16Prod_2">
+        <Class name="org.caltests.resources.producers.Int16Producer"/>
+    </Instance>
+    <Connection dst="instance_5" dst-port="Y_LEFT" src="internal_2" src-port="OUT1"/>
+    <Connection dst="instance_5" dst-port="Y_UP" src="internal_2" src-port="OUT2"/>
+    <Connection dst="instance_5" dst-port="AVAIL" src="BoolProd" src-port="bOut"/>
+    <Connection dst="instance_5" dst-port="PRED_MODE" src="UInt16Prod" src-port="u16Out"/>
+    <Connection dst="I16Console_1" dst-port="Int16_IN" src="instance_4" src-port="Y"/>
+    <Connection dst="I16Console_2" dst-port="Int16_IN" src="instance_4" src-port="OUTPUT1"/>
+    <Connection dst="U16Console" dst-port="u16In" src="instance_4" src-port="toto"/>
+    <Connection dst="TokensCounter_1" dst-port="u8_input"
+        src="instance_4" src-port="tata"/>
+    <Connection dst="TokensCounter_2" dst-port="u8_input"
+        src="instance_4" src-port="POIU"/>
+    <Connection dst="instance_5" dst-port="Y_UP_LEFT" src="Int16Prod_3" src-port="i16Out"/>
+    <Connection dst="instance_4" dst-port="X" src="instance_5" src-port="MPR"/>
+    <Connection dst="instance_4" dst-port="IN2" src="instance_5" src-port="PORT_LONG_32"/>
+    <Connection dst="instance_4" dst-port="IN3" src="instance_5" src-port="ANOTHER_VERY_LONG_PORT"/>
+    <Connection dst="internal_2" dst-port="IN1" src="Int16Prod_1" src-port="i16Out"/>
+    <Connection dst="internal_2" dst-port="IN2" src="Int16Prod_2" src-port="i16Out"/>
+    <Connection dst="instance_5" dst-port="AVAIL" src="internal_1" src-port="OUT1"/>
+    <Connection dst="instance_5" dst-port="PRED_MODE" src="internal_1" src-port="OUT2"/>
+</XDF>
