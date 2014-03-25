@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XDF name="Top_SelfLoop">
+    <Instance id="ProdCons">
+        <Class name="org.caltests.selfloop.ProdCons"/>
+    </Instance>
+    <Connection dst="ProdCons" dst-port="IN" src="ProdCons" src-port="OUT"/>
+</XDF>

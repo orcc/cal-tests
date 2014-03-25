@@ -1,0 +1,13 @@
+package org.caltests.selfloop;
+
+actor ProdCons () int IN ==> int OUT:
+	
+	action IN: [ i ] ==>
+	do
+		println("Received " + i);
+	end
+	
+	action ==> OUT: [ 0, 1, 2, 3 ] 
+	end
+
+end
