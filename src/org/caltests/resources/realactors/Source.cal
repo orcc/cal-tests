@@ -33,6 +33,7 @@
 
 package org.caltests.resources.realactors;
 import std.stdio.Source.*;
+import this.is.a.bad.importstring.*;
 
 actor Source () ==> uint(size=8) O, int USELESS:
 
