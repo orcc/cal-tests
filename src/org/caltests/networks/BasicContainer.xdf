@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XDF name="BasicContainer">
+    <Port kind="Input" name="INPUT0">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="32"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Port kind="Input" name="INPUT1">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="32"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Port kind="Output" name="OUTPUT0">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="32"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Port kind="Output" name="OUTPUT1">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="32"/>
+            </Entry>
+        </Type>
+    </Port>
+    <Instance id="instance_3">
+        <Class name="org.caltests.networks.internal"/>
+    </Instance>
+    <Connection dst="instance_3" dst-port="IN1" src="" src-port="INPUT0"/>
+    <Connection dst="instance_3" dst-port="IN2" src="" src-port="INPUT1"/>
+    <Connection dst="" dst-port="OUTPUT0" src="instance_3" src-port="OUT1"/>
+    <Connection dst="" dst-port="OUTPUT1" src="instance_3" src-port="OUT2"/>
+</XDF>
