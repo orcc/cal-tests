@@ -1,0 +1,11 @@
+
+package org.caltests.crossrefs;
+
+import org.ref.Constants.*;
+
+actor Actor() ==> :
+
+	action ==> do
+		println(CST1);
+	end
+end

@@ -1,0 +1,6 @@
+package org.ref;
+
+unit Constants:
+	int CST1 = 6;
+	uint CST2 = 60;
+end
