@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XDF name="TopScopeTest">
+    <Instance id="main_actor">
+        <Class name="org.caltests.scope.NoLocalUseInGuard"/>
+    </Instance>
+</XDF>

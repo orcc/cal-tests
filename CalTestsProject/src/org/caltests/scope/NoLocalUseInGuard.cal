@@ -1,0 +1,18 @@
+package org.caltests.scope;
+
+actor NoLocalUseInGuard() ==> :
+
+	/**
+	 * This action produces bad c code since it uses a local variable in guard 
+	 */
+	action ==>
+	guard
+		aLocalVariable = 10
+	var
+		int aLocalVariable := 0
+	do
+		println("Value: " + aLocalVariable);
+		aLocalVariable := aLocalVariable + 1;
+	end
+
+end
