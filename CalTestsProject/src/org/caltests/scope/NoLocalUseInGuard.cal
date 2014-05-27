@@ -2,12 +2,16 @@ package org.caltests.scope;
 
 actor NoLocalUseInGuard() ==> :
 
+	// If this state variable declaration is commented,
+	// the frontend MUST produce an error
+	int aLocalVariable = 42;
+
 	/**
 	 * This action produces bad c code since it uses a local variable in guard 
 	 */
 	action ==>
 	guard
-		aLocalVariable = 10
+		(58 - aLocalVariable) = 10
 	var
 		int aLocalVariable := 0
 	do
