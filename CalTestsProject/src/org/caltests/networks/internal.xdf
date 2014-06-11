@@ -28,11 +28,21 @@
             </Entry>
         </Type>
     </Port>
+    <Decl kind="Param" name="graphParam">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="32"/>
+            </Entry>
+        </Type>
+    </Decl>
     <Instance id="instance_1">
         <Class name="org.caltests.instternary.InstTernary"/>
     </Instance>
     <Instance id="instance_2">
         <Class name="org.caltests.instternary.InstTernary"/>
+        <Parameter name="xxParam">
+            <Expr kind="Var" name="graphParam"/>
+        </Parameter>
     </Instance>
     <Connection dst="instance_1" dst-port="Int16_IN" src="" src-port="IN1"/>
     <Connection dst="instance_2" dst-port="Int16_IN" src="" src-port="IN2"/>

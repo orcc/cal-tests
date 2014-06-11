@@ -1,12 +1,12 @@
 package org.caltests.instternary;
 
-actor InstTernary () int(size=16) Int16_IN ==> int(size=16) Int16_OUT :
+actor InstTernary (int xxParam = 42) int(size=16) Int16_IN ==> int(size=16) Int16_OUT :
 
 	Consume : action Int16_IN:[int_value] ==> Int16_OUT:[out_var]
 	var
 		int(size=16) out_var := ternarisable(int_value)
 	do
-		
+		print("xxParam=" + xxParam);
 	end
 	
 	function ternarisable(int(size=16) input) --> int(size=16) :

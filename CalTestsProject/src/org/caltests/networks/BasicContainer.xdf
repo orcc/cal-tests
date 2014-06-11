@@ -30,6 +30,9 @@
     </Port>
     <Instance id="instance_3">
         <Class name="org.caltests.networks.internal"/>
+        <Parameter name="graphParam">
+            <Expr kind="Literal" literal-kind="Integer" value="56"/>
+        </Parameter>
     </Instance>
     <Connection dst="instance_3" dst-port="IN1" src="" src-port="INPUT0"/>
     <Connection dst="instance_3" dst-port="IN2" src="" src-port="INPUT1"/>
