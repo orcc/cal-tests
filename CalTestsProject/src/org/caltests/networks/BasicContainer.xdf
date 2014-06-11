@@ -28,10 +28,17 @@
             </Entry>
         </Type>
     </Port>
+    <Decl kind="Param" name="toto">
+        <Type name="int">
+            <Entry kind="Expr" name="size">
+                <Expr kind="Literal" literal-kind="Integer" value="32"/>
+            </Entry>
+        </Type>
+    </Decl>
     <Instance id="instance_3">
         <Class name="org.caltests.networks.internal"/>
         <Parameter name="graphParam">
-            <Expr kind="Literal" literal-kind="Integer" value="56"/>
+            <Expr kind="Var" name="toto"/>
         </Parameter>
     </Instance>
     <Connection dst="instance_3" dst-port="IN1" src="" src-port="INPUT0"/>

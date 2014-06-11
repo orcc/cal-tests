@@ -42,13 +42,17 @@
     <Instance id="Int16Prod_2">
         <Class name="org.caltests.resources.producers.Int16Producer"/>
     </Instance>
+    <Instance id="container">
+        <Class name="org.caltests.networks.BasicContainer"/>
+        <Parameter name="toto">
+            <Expr kind="Literal" literal-kind="Integer" value="652"/>
+        </Parameter>
+    </Instance>
     <Connection dst="instance_5" dst-port="Y_LEFT" src="internal_2" src-port="OUT1"/>
     <Connection dst="instance_5" dst-port="Y_UP" src="internal_2" src-port="OUT2"/>
     <Connection dst="instance_5" dst-port="AVAIL" src="BoolProd" src-port="bOut"/>
     <Connection dst="instance_5" dst-port="PRED_MODE" src="UInt16Prod" src-port="u16Out"/>
     <Connection dst="I16Console_1" dst-port="Int16_IN" src="instance_4" src-port="Y"/>
-    <Connection dst="I16Console_2" dst-port="Int16_IN" src="instance_4" src-port="OUTPUT1"/>
-    <Connection dst="U16Console" dst-port="u16In" src="instance_4" src-port="toto"/>
     <Connection dst="TokensCounter_1" dst-port="u8_input"
         src="instance_4" src-port="tata"/>
     <Connection dst="TokensCounter_2" dst-port="u8_input"
@@ -61,4 +65,8 @@
     <Connection dst="internal_2" dst-port="IN2" src="Int16Prod_2" src-port="i16Out"/>
     <Connection dst="instance_5" dst-port="AVAIL" src="internal_1" src-port="OUT1"/>
     <Connection dst="instance_5" dst-port="PRED_MODE" src="internal_1" src-port="OUT2"/>
+    <Connection dst="container" dst-port="INPUT0" src="internal_2" src-port="OUT1"/>
+    <Connection dst="container" dst-port="INPUT1" src="internal_2" src-port="OUT2"/>
+    <Connection dst="I16Console_2" dst-port="Int16_IN" src="container" src-port="OUTPUT0"/>
+    <Connection dst="U16Console" dst-port="u16In" src="container" src-port="OUTPUT1"/>
 </XDF>
