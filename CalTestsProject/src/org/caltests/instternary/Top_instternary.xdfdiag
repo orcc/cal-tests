@@ -23,7 +23,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="Top_instternary.xdf#//@instances.Producer"/>
+      <businessObjects href="Top_instternary.xdf#//@vertices.0"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.0" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -54,7 +54,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="Top_instternary.xdf#//@instances.Console"/>
+      <businessObjects href="Top_instternary.xdf#//@vertices.1"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.1" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -89,7 +89,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="Top_instternary.xdf#//@instances.Ternary"/>
+      <businessObjects href="Top_instternary.xdf#//@vertices.2"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.0" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -187,7 +187,7 @@
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.2/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.3"/>
     <link>
-      <businessObjects href="Top_instternary.xdf#//@connections:Producer.i16Out-Ternary.Int16_IN"/>
+      <businessObjects href="Top_instternary.xdf#//@edges.0"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.3">
@@ -200,7 +200,7 @@
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.2/@anchors.1" end="//@children.1/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.3"/>
     <link>
-      <businessObjects href="Top_instternary.xdf#//@connections:Ternary.Int16_OUT-Console.Int16_IN"/>
+      <businessObjects href="Top_instternary.xdf#//@edges.1"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.3">

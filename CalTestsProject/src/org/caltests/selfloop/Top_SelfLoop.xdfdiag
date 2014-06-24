@@ -27,7 +27,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="Top_SelfLoop.xdf#//@instances.ProdCons"/>
+      <businessObjects href="Top_SelfLoop.xdf#//@vertices.0"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.0" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -125,7 +125,7 @@
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.1" end="//@children.0/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.3"/>
     <link>
-      <businessObjects href="Top_SelfLoop.xdf#//@connections:ProdCons.OUT-ProdCons.IN"/>
+      <businessObjects href="Top_SelfLoop.xdf#//@edges.0"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.3">

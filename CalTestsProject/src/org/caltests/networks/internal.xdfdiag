@@ -27,7 +27,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="internal.xdf#//@instances.instance_1"/>
+      <businessObjects href="internal.xdf#//@vertices.4"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.0" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -72,7 +72,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="internal.xdf#//@instances.instance_2"/>
+      <businessObjects href="internal.xdf#//@vertices.5"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.1" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -109,7 +109,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="internal.xdf#//@inputs.IN1"/>
+      <businessObjects href="internal.xdf#//@vertices.0"/>
     </link>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.0"/>
   </children>
@@ -127,7 +127,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="internal.xdf#//@inputs.IN2"/>
+      <businessObjects href="internal.xdf#//@vertices.1"/>
     </link>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.1"/>
   </children>
@@ -145,7 +145,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="internal.xdf#//@outputs.OUT1"/>
+      <businessObjects href="internal.xdf#//@vertices.2"/>
     </link>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.2"/>
   </children>
@@ -163,7 +163,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="internal.xdf#//@outputs.OUT2"/>
+      <businessObjects href="internal.xdf#//@vertices.3"/>
     </link>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.3"/>
   </children>
@@ -275,7 +275,7 @@
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.2/@anchors.0" end="//@children.0/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.5"/>
     <link>
-      <businessObjects href="internal.xdf#//@connections:IN1-instance_1.Int16_IN"/>
+      <businessObjects href="internal.xdf#//@edges.0"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.5">
@@ -288,7 +288,7 @@
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.3/@anchors.0" end="//@children.1/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.5"/>
     <link>
-      <businessObjects href="internal.xdf#//@connections:IN2-instance_2.Int16_IN"/>
+      <businessObjects href="internal.xdf#//@edges.1"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.5">
@@ -301,7 +301,7 @@
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.1" end="//@children.4/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.5"/>
     <link>
-      <businessObjects href="internal.xdf#//@connections:instance_1.Int16_OUT-OUT1"/>
+      <businessObjects href="internal.xdf#//@edges.2"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.5">
@@ -314,7 +314,7 @@
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@anchors.1" end="//@children.5/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.5"/>
     <link>
-      <businessObjects href="internal.xdf#//@connections:instance_2.Int16_OUT-OUT2"/>
+      <businessObjects href="internal.xdf#//@edges.3"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.5">

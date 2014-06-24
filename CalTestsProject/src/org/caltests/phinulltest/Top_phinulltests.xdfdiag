@@ -23,7 +23,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="Top_phinulltests.xdf#//@instances.INProd"/>
+      <businessObjects href="Top_phinulltests.xdf#//@vertices.0"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.0" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -62,7 +62,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="Top_phinulltests.xdf#//@instances.DCSplit"/>
+      <businessObjects href="Top_phinulltests.xdf#//@vertices.1"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.0" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -113,7 +113,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="Top_phinulltests.xdf#//@instances.DCCons"/>
+      <businessObjects href="Top_phinulltests.xdf#//@vertices.2"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.1" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -144,7 +144,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="Top_phinulltests.xdf#//@instances.ACCons"/>
+      <businessObjects href="Top_phinulltests.xdf#//@vertices.3"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.2" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -232,7 +232,7 @@
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.1/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.3"/>
     <link>
-      <businessObjects href="Top_phinulltests.xdf#//@connections:INProd.i16Out-DCSplit.IN"/>
+      <businessObjects href="Top_phinulltests.xdf#//@edges.0"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.3">
@@ -245,7 +245,7 @@
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@anchors.1" end="//@children.2/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.3"/>
     <link>
-      <businessObjects href="Top_phinulltests.xdf#//@connections:DCSplit.DC-DCCons.Int16_IN"/>
+      <businessObjects href="Top_phinulltests.xdf#//@edges.1"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.3">
@@ -260,7 +260,7 @@
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@anchors.2" end="//@children.3/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.3"/>
     <link>
-      <businessObjects href="Top_phinulltests.xdf#//@connections:DCSplit.AC-ACCons.Int16_IN"/>
+      <businessObjects href="Top_phinulltests.xdf#//@edges.2"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.3">

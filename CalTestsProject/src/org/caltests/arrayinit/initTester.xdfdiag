@@ -27,7 +27,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="initTester.xdf#//@instances.main"/>
+      <businessObjects href="initTester.xdf#//@vertices.0"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>

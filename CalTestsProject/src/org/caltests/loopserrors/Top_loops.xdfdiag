@@ -19,7 +19,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="Top_loops.xdf#//@instances.Loop"/>
+      <businessObjects href="Top_loops.xdf#//@vertices.0"/>
     </link>
   </children>
   <styles lineWidth="1" lineVisible="true" transparency="0.0" id="COMMON_GENERIC" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">

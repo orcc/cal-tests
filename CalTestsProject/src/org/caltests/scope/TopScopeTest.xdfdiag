@@ -19,7 +19,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="TopScopeTest.xdf#//@instances.main_actor"/>
+      <businessObjects href="TopScopeTest.xdf#//@vertices.0"/>
     </link>
   </children>
   <styles lineWidth="1" lineVisible="true" transparency="0.0" id="COMMON_GENERIC" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">
