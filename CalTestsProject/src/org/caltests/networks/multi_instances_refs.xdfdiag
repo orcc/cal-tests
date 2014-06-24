@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="10" diagramTypeId="xdfDiagram" name="multi_instances_refs" snapToGrid="true" pictogramLinks="//@link //@children.0/@link //@children.0/@anchors.0/@link //@children.1/@link //@children.1/@anchors.0/@link //@children.2/@link //@children.2/@anchors.0/@link //@children.3/@link //@children.3/@anchors.0/@link //@children.3/@anchors.1/@link //@children.3/@anchors.2/@link //@children.3/@anchors.3/@link //@children.3/@anchors.4/@link //@children.3/@anchors.5/@link //@children.3/@anchors.6/@link //@children.3/@anchors.7/@link //@children.3/@anchors.8/@link //@children.3/@anchors.9/@link //@children.4/@link //@children.4/@anchors.0/@link //@children.4/@anchors.1/@link //@children.4/@anchors.2/@link //@children.4/@anchors.3/@link //@children.4/@anchors.4/@link //@children.4/@anchors.5/@link //@children.4/@anchors.6/@link //@children.4/@anchors.7/@link //@children.5/@link //@children.5/@anchors.0/@link //@children.5/@anchors.1/@link //@children.5/@anchors.2/@link //@children.5/@anchors.3/@link //@children.6/@link //@children.6/@anchors.0/@link //@children.7/@link //@children.7/@anchors.0/@link //@children.8/@link //@children.8/@anchors.0/@link //@children.9/@link //@children.9/@anchors.0/@link //@children.10/@link //@children.10/@anchors.0/@link //@children.11/@link //@children.11/@anchors.0/@link //@children.11/@anchors.1/@link //@children.11/@anchors.2/@link //@children.11/@anchors.3/@link //@children.12/@link //@children.12/@anchors.0/@link //@children.13/@link //@children.13/@anchors.0/@link //@connections.0/@link //@connections.1/@link //@connections.2/@link //@connections.3/@link //@connections.4/@link //@connections.5/@link //@connections.6/@link //@connections.7/@link //@connections.8/@link //@connections.9/@link //@connections.10/@link //@connections.11/@link //@connections.12/@link //@connections.13/@link //@connections.14/@link //@children.14/@link //@children.14/@anchors.0/@link //@children.14/@anchors.1/@link //@children.14/@anchors.2/@link //@children.14/@anchors.3/@link //@connections.15/@link //@connections.16/@link //@connections.17/@link //@connections.18/@link" version="0.10.0">
+<pi:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" visible="true" gridUnit="10" diagramTypeId="xdfDiagram" name="multi_instances_refs" snapToGrid="true" pictogramLinks="//@link //@children.0/@link //@children.0/@anchors.0/@link //@children.1/@link //@children.1/@anchors.0/@link //@children.2/@link //@children.2/@anchors.0/@link //@children.3/@link //@children.3/@anchors.0/@link //@children.3/@anchors.1/@link //@children.3/@anchors.2/@link //@children.3/@anchors.3/@link //@children.3/@anchors.4/@link //@children.3/@anchors.5/@link //@children.3/@anchors.6/@link //@children.3/@anchors.7/@link //@children.3/@anchors.8/@link //@children.3/@anchors.9/@link //@children.4/@link //@children.4/@anchors.0/@link //@children.4/@anchors.1/@link //@children.4/@anchors.2/@link //@children.4/@anchors.3/@link //@children.4/@anchors.4/@link //@children.4/@anchors.5/@link //@children.4/@anchors.6/@link //@children.4/@anchors.7/@link //@children.5/@link //@children.5/@anchors.0/@link //@children.5/@anchors.1/@link //@children.5/@anchors.2/@link //@children.5/@anchors.3/@link //@children.6/@link //@children.6/@anchors.0/@link //@children.7/@link //@children.7/@anchors.0/@link //@children.8/@link //@children.8/@anchors.0/@link //@children.9/@link //@children.9/@anchors.0/@link //@children.10/@link //@children.10/@anchors.0/@link //@children.11/@link //@children.11/@anchors.0/@link //@children.12/@link //@children.12/@anchors.0/@link //@connections.0/@link //@connections.1/@link //@connections.2/@link //@connections.3/@link //@connections.4/@link //@connections.5/@link //@connections.6/@link //@connections.7/@link //@connections.8/@link //@connections.9/@link //@connections.10/@link //@connections.11/@link //@connections.12/@link //@children.13/@link //@children.13/@anchors.0/@link //@children.13/@anchors.1/@link //@children.13/@anchors.2/@link //@children.13/@anchors.3/@link //@connections.13/@link //@connections.14/@link //@connections.15/@link //@connections.16/@link" version="0.10.0">
   <properties key="xdf_diagram_version" value="1"/>
   <graphicsAlgorithm xsi:type="al:Rectangle" background="//@colors.1" foreground="//@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
   <link>
@@ -8,7 +8,7 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="XDF_ID" value="INSTANCE"/>
     <properties key="refinement" value="/CalTestsProject/bin/org/caltests/resources/producers/BoolProducer.ir"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="163" y="277" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="163" y="372" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
       <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="120" height="40" style="//@styles.1/@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="BoolProd">
         <properties key="XDF_ID" value="INSTANCE_LABEL"/>
       </graphicsAlgorithmChildren>
@@ -23,7 +23,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@instances.BoolProd"/>
+      <businessObjects href="multi_instances_refs.xdf#//@vertices.0"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.2" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -39,7 +39,7 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="XDF_ID" value="INSTANCE"/>
     <properties key="refinement" value="/CalTestsProject/bin/org/caltests/resources/producers/Int16Producer.ir"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="163" y="122" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="163" y="262" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
       <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="120" height="40" style="//@styles.1/@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="Int16Prod_3">
         <properties key="XDF_ID" value="INSTANCE_LABEL"/>
       </graphicsAlgorithmChildren>
@@ -54,7 +54,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@instances.Int16Prod_3"/>
+      <businessObjects href="multi_instances_refs.xdf#//@vertices.1"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.7" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -70,7 +70,7 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="XDF_ID" value="INSTANCE"/>
     <properties key="refinement" value="/CalTestsProject/bin/org/caltests/resources/producers/UInt16Producer.ir"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="163" y="497" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="163" y="482" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
       <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="120" height="40" style="//@styles.1/@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="UInt16Prod">
         <properties key="XDF_ID" value="INSTANCE_LABEL"/>
       </graphicsAlgorithmChildren>
@@ -85,7 +85,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@instances.UInt16Prod"/>
+      <businessObjects href="multi_instances_refs.xdf#//@vertices.2"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.3" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -101,7 +101,7 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="XDF_ID" value="INSTANCE"/>
     <properties key="refinement" value="/CalTestsProject/bin/org/caltests/resources/realactors/Algo_Merge_4x4_to_16x16_norasterscan.ir"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="174" height="150" x="638" y="232" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="174" height="150" x="623" y="232" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
       <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="174" height="40" style="//@styles.1/@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="instance_4">
         <properties key="XDF_ID" value="INSTANCE_LABEL"/>
       </graphicsAlgorithmChildren>
@@ -152,7 +152,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@instances.instance_4"/>
+      <businessObjects href="multi_instances_refs.xdf#//@vertices.3"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.8" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -258,7 +258,7 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="XDF_ID" value="INSTANCE"/>
     <properties key="refinement" value="/CalTestsProject/bin/org/caltests/resources/realactors/Algo_IntraPred_LUMA_4x4.ir"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="263" height="120" x="344" y="232" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="263" height="120" x="329" y="232" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
       <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="263" height="40" style="//@styles.1/@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="instance_5">
         <properties key="XDF_ID" value="INSTANCE_LABEL"/>
       </graphicsAlgorithmChildren>
@@ -301,7 +301,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@instances.instance_5"/>
+      <businessObjects href="multi_instances_refs.xdf#//@vertices.4"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.0" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -333,7 +333,7 @@
       </link>
       <location y="78"/>
     </anchors>
-    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.2 //@connections.13" useAnchorLocationAsConnectionEndpoint="true">
+    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.2" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
       <properties key="REF_PORT_NAME" value="AVAIL"/>
       <properties key="SHAPE_DIRECTION" value="input"/>
@@ -343,7 +343,7 @@
       </link>
       <location y="93"/>
     </anchors>
-    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.3 //@connections.14" useAnchorLocationAsConnectionEndpoint="true">
+    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.3" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
       <properties key="REF_PORT_NAME" value="PRED_MODE"/>
       <properties key="SHAPE_DIRECTION" value="input"/>
@@ -414,7 +414,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@instances.internal_2"/>
+      <businessObjects href="multi_instances_refs.xdf#//@vertices.5"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.11" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -422,7 +422,7 @@
       <properties key="SHAPE_DIRECTION" value="input"/>
       <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="12" height="12" y="-6" style="//@styles.0/@styles.1"/>
       <link>
-        <businessObjects href="internal.xdf#//@inputs.IN1"/>
+        <businessObjects href="internal.xdf#//@vertices.0"/>
       </link>
       <location y="48"/>
     </anchors>
@@ -432,27 +432,27 @@
       <properties key="SHAPE_DIRECTION" value="input"/>
       <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="12" height="12" y="-6" style="//@styles.0/@styles.1"/>
       <link>
-        <businessObjects href="internal.xdf#//@inputs.IN2"/>
+        <businessObjects href="internal.xdf#//@vertices.1"/>
       </link>
       <location y="63"/>
     </anchors>
-    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.0 //@connections.15" useAnchorLocationAsConnectionEndpoint="true">
+    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.0 //@connections.13" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
       <properties key="REF_PORT_NAME" value="OUT1"/>
       <properties key="SHAPE_DIRECTION" value="output"/>
       <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="13" height="12" x="-12" y="-6" style="//@styles.0/@styles.1"/>
       <link>
-        <businessObjects href="internal.xdf#//@outputs.OUT1"/>
+        <businessObjects href="internal.xdf#//@vertices.2"/>
       </link>
       <location x="120" y="48"/>
     </anchors>
-    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.1 //@connections.16" useAnchorLocationAsConnectionEndpoint="true">
+    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.1 //@connections.14" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
       <properties key="REF_PORT_NAME" value="OUT2"/>
       <properties key="SHAPE_DIRECTION" value="output"/>
       <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="13" height="12" x="-12" y="-6" style="//@styles.0/@styles.1"/>
       <link>
-        <businessObjects href="internal.xdf#//@outputs.OUT2"/>
+        <businessObjects href="internal.xdf#//@vertices.3"/>
       </link>
       <location x="120" y="63"/>
     </anchors>
@@ -460,7 +460,7 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="XDF_ID" value="INSTANCE"/>
     <properties key="refinement" value="/CalTestsProject/bin/org/caltests/resources/consumers/Int16Console.ir"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="638" y="12" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="623" y="12" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
       <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="120" height="40" style="//@styles.1/@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="I16Console_2">
         <properties key="XDF_ID" value="INSTANCE_LABEL"/>
       </graphicsAlgorithmChildren>
@@ -475,9 +475,9 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@instances.I16Console_2"/>
+      <businessObjects href="multi_instances_refs.xdf#//@vertices.6"/>
     </link>
-    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.17" useAnchorLocationAsConnectionEndpoint="true">
+    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.15" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
       <properties key="REF_PORT_NAME" value="Int16_IN"/>
       <properties key="SHAPE_DIRECTION" value="input"/>
@@ -491,7 +491,7 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="XDF_ID" value="INSTANCE"/>
     <properties key="refinement" value="/CalTestsProject/bin/org/caltests/resources/consumers/TokensCounter.ir"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="858" y="342" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="843" y="342" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
       <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="120" height="40" style="//@styles.1/@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="TokensCounter_1">
         <properties key="XDF_ID" value="INSTANCE_LABEL"/>
       </graphicsAlgorithmChildren>
@@ -506,7 +506,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@instances.TokensCounter_1"/>
+      <businessObjects href="multi_instances_refs.xdf#//@vertices.7"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.5" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -522,7 +522,7 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="XDF_ID" value="INSTANCE"/>
     <properties key="refinement" value="/CalTestsProject/bin/org/caltests/resources/consumers/UInt16Console.ir"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="638" y="122" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="623" y="122" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
       <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="120" height="40" style="//@styles.1/@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="U16Console">
         <properties key="XDF_ID" value="INSTANCE_LABEL"/>
       </graphicsAlgorithmChildren>
@@ -537,9 +537,9 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@instances.U16Console"/>
+      <businessObjects href="multi_instances_refs.xdf#//@vertices.8"/>
     </link>
-    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.18" useAnchorLocationAsConnectionEndpoint="true">
+    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.16" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
       <properties key="REF_PORT_NAME" value="u16In"/>
       <properties key="SHAPE_DIRECTION" value="input"/>
@@ -553,7 +553,7 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="XDF_ID" value="INSTANCE"/>
     <properties key="refinement" value="/CalTestsProject/bin/org/caltests/resources/consumers/TokensCounter.ir"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="858" y="452" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="843" y="452" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
       <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="120" height="40" style="//@styles.1/@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="TokensCounter_2">
         <properties key="XDF_ID" value="INSTANCE_LABEL"/>
       </graphicsAlgorithmChildren>
@@ -568,7 +568,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@instances.TokensCounter_2"/>
+      <businessObjects href="multi_instances_refs.xdf#//@vertices.9"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.6" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -584,7 +584,7 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="XDF_ID" value="INSTANCE"/>
     <properties key="refinement" value="/CalTestsProject/bin/org/caltests/resources/consumers/Int16Console.ir"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="858" y="232" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="843" y="232" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5">
       <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="120" height="40" style="//@styles.1/@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="I16Console_1">
         <properties key="XDF_ID" value="INSTANCE_LABEL"/>
       </graphicsAlgorithmChildren>
@@ -599,7 +599,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@instances.I16Console_1"/>
+      <businessObjects href="multi_instances_refs.xdf#//@vertices.10"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.4" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -610,79 +610,6 @@
         <businessObjects href="../../../../bin/org/caltests/resources/consumers/Int16Console.ir#//@inputs.0"/>
       </link>
       <location y="48"/>
-    </anchors>
-  </children>
-  <children xsi:type="pi:ContainerShape" visible="true" active="true">
-    <properties key="XDF_ID" value="INSTANCE"/>
-    <properties key="refinement" value="/CalTestsProject/src/org/caltests/networks/internal.xdf"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="120" height="80" x="163" y="387" style="//@styles.0/@styles.3" cornerHeight="5" cornerWidth="5">
-      <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="120" height="40" style="//@styles.1/@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="internal_1">
-        <properties key="XDF_ID" value="INSTANCE_LABEL"/>
-      </graphicsAlgorithmChildren>
-      <graphicsAlgorithmChildren xsi:type="al:Polyline" lineWidth="1" lineStyle="UNSPECIFIED">
-        <properties key="XDF_ID" value="INSTANCE_SEPARATOR"/>
-        <points y="40"/>
-        <points x="120" y="40"/>
-      </graphicsAlgorithmChildren>
-      <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="92" height="13" x="14" y="43" style="//@styles.1/@styles.1" verticalAlignment="UNSPECIFIED" value="IN1">
-        <properties key="XDF_ID" value="INSTANCE_PORT_TEXT"/>
-        <properties key="SHAPE_DIRECTION" value="input"/>
-      </graphicsAlgorithmChildren>
-      <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="92" height="13" x="14" y="58" style="//@styles.1/@styles.1" verticalAlignment="UNSPECIFIED" value="IN2">
-        <properties key="XDF_ID" value="INSTANCE_PORT_TEXT"/>
-        <properties key="SHAPE_DIRECTION" value="input"/>
-      </graphicsAlgorithmChildren>
-      <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="92" height="13" x="14" y="43" style="//@styles.1/@styles.1" horizontalAlignment="ALIGNMENT_RIGHT" verticalAlignment="UNSPECIFIED" value="OUT1">
-        <properties key="XDF_ID" value="INSTANCE_PORT_TEXT"/>
-        <properties key="SHAPE_DIRECTION" value="output"/>
-      </graphicsAlgorithmChildren>
-      <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="92" height="13" x="14" y="58" style="//@styles.1/@styles.1" horizontalAlignment="ALIGNMENT_RIGHT" verticalAlignment="UNSPECIFIED" value="OUT2">
-        <properties key="XDF_ID" value="INSTANCE_PORT_TEXT"/>
-        <properties key="SHAPE_DIRECTION" value="output"/>
-      </graphicsAlgorithmChildren>
-    </graphicsAlgorithm>
-    <link>
-      <businessObjects href="multi_instances_refs.xdf#//@instances.internal_1"/>
-    </link>
-    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
-      <properties key="XDF_ID" value="INSTANCE_PORT"/>
-      <properties key="REF_PORT_NAME" value="IN1"/>
-      <properties key="SHAPE_DIRECTION" value="input"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="12" height="12" y="-6" style="//@styles.0/@styles.1"/>
-      <link>
-        <businessObjects href="internal.xdf#//@inputs.IN1"/>
-      </link>
-      <location y="48"/>
-    </anchors>
-    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" useAnchorLocationAsConnectionEndpoint="true">
-      <properties key="XDF_ID" value="INSTANCE_PORT"/>
-      <properties key="REF_PORT_NAME" value="IN2"/>
-      <properties key="SHAPE_DIRECTION" value="input"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="12" height="12" y="-6" style="//@styles.0/@styles.1"/>
-      <link>
-        <businessObjects href="internal.xdf#//@inputs.IN2"/>
-      </link>
-      <location y="63"/>
-    </anchors>
-    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.13" useAnchorLocationAsConnectionEndpoint="true">
-      <properties key="XDF_ID" value="INSTANCE_PORT"/>
-      <properties key="REF_PORT_NAME" value="OUT1"/>
-      <properties key="SHAPE_DIRECTION" value="output"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="13" height="12" x="-12" y="-6" style="//@styles.0/@styles.1"/>
-      <link>
-        <businessObjects href="internal.xdf#//@outputs.OUT1"/>
-      </link>
-      <location x="120" y="48"/>
-    </anchors>
-    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.14" useAnchorLocationAsConnectionEndpoint="true">
-      <properties key="XDF_ID" value="INSTANCE_PORT"/>
-      <properties key="REF_PORT_NAME" value="OUT2"/>
-      <properties key="SHAPE_DIRECTION" value="output"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="13" height="12" x="-12" y="-6" style="//@styles.0/@styles.1"/>
-      <link>
-        <businessObjects href="internal.xdf#//@outputs.OUT2"/>
-      </link>
-      <location x="120" y="63"/>
     </anchors>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
@@ -703,7 +630,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@instances.Int16Prod_1"/>
+      <businessObjects href="multi_instances_refs.xdf#//@vertices.11"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.11" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -734,7 +661,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@instances.Int16Prod_2"/>
+      <businessObjects href="multi_instances_refs.xdf#//@vertices.12"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.12" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -750,7 +677,7 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="XDF_ID" value="INSTANCE"/>
     <properties key="refinement" value="/CalTestsProject/src/org/caltests/networks/BasicContainer.xdf"/>
-    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="132" height="80" x="410" y="12" style="//@styles.0/@styles.3" cornerHeight="5" cornerWidth="5">
+    <graphicsAlgorithm xsi:type="al:RoundedRectangle" lineStyle="UNSPECIFIED" width="132" height="80" x="395" y="12" style="//@styles.0/@styles.3" cornerHeight="5" cornerWidth="5">
       <graphicsAlgorithmChildren xsi:type="al:Text" lineStyle="UNSPECIFIED" width="132" height="40" style="//@styles.1/@styles.0" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED" value="container">
         <properties key="XDF_ID" value="INSTANCE_LABEL"/>
       </graphicsAlgorithmChildren>
@@ -777,45 +704,45 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@instances.container"/>
+      <businessObjects href="multi_instances_refs.xdf#//@vertices.13"/>
     </link>
-    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.15" useAnchorLocationAsConnectionEndpoint="true">
+    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.13" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
       <properties key="REF_PORT_NAME" value="INPUT0"/>
       <properties key="SHAPE_DIRECTION" value="input"/>
       <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="12" height="12" y="-6" style="//@styles.0/@styles.1"/>
       <link>
-        <businessObjects href="BasicContainer.xdf#//@inputs.INPUT0"/>
+        <businessObjects href="BasicContainer.xdf#//@vertices.0"/>
       </link>
       <location y="48"/>
     </anchors>
-    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.16" useAnchorLocationAsConnectionEndpoint="true">
+    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.14" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
       <properties key="REF_PORT_NAME" value="INPUT1"/>
       <properties key="SHAPE_DIRECTION" value="input"/>
       <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="12" height="12" y="-6" style="//@styles.0/@styles.1"/>
       <link>
-        <businessObjects href="BasicContainer.xdf#//@inputs.INPUT1"/>
+        <businessObjects href="BasicContainer.xdf#//@vertices.1"/>
       </link>
       <location y="63"/>
     </anchors>
-    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.17" useAnchorLocationAsConnectionEndpoint="true">
+    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.15" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
       <properties key="REF_PORT_NAME" value="OUTPUT0"/>
       <properties key="SHAPE_DIRECTION" value="output"/>
       <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="13" height="12" x="-12" y="-6" style="//@styles.0/@styles.1"/>
       <link>
-        <businessObjects href="BasicContainer.xdf#//@outputs.OUTPUT0"/>
+        <businessObjects href="BasicContainer.xdf#//@vertices.2"/>
       </link>
       <location x="132" y="48"/>
     </anchors>
-    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.18" useAnchorLocationAsConnectionEndpoint="true">
+    <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.16" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
       <properties key="REF_PORT_NAME" value="OUTPUT1"/>
       <properties key="SHAPE_DIRECTION" value="output"/>
       <graphicsAlgorithm xsi:type="al:Rectangle" lineStyle="UNSPECIFIED" width="13" height="12" x="-12" y="-6" style="//@styles.0/@styles.1"/>
       <link>
-        <businessObjects href="BasicContainer.xdf#//@outputs.OUTPUT1"/>
+        <businessObjects href="BasicContainer.xdf#//@vertices.3"/>
       </link>
       <location x="132" y="63"/>
     </anchors>
@@ -919,7 +846,7 @@
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.5/@anchors.2" end="//@children.4/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:internal_2.OUT1-instance_5.Y_LEFT"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.0"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -928,13 +855,13 @@
         <points x="-12" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
-    <bendpoints x="329" y="60"/>
-    <bendpoints x="329" y="280"/>
+    <bendpoints x="314" y="60"/>
+    <bendpoints x="314" y="280"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.5/@anchors.3" end="//@children.4/@anchors.1">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:internal_2.OUT2-instance_5.Y_UP"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.1"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -943,13 +870,13 @@
         <points x="-12" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
-    <bendpoints x="314" y="75"/>
-    <bendpoints x="314" y="295"/>
+    <bendpoints x="299" y="75"/>
+    <bendpoints x="299" y="295"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.0/@anchors.0" end="//@children.4/@anchors.3">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:BoolProd.bOut-instance_5.AVAIL"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.2"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -958,11 +885,13 @@
         <points x="-12" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
+    <bendpoints x="299" y="420"/>
+    <bendpoints x="299" y="325"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.2/@anchors.0" end="//@children.4/@anchors.4">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:UInt16Prod.u16Out-instance_5.PRED_MODE"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.3"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -971,13 +900,13 @@
         <points x="-12" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
-    <bendpoints x="314" y="545"/>
+    <bendpoints x="314" y="530"/>
     <bendpoints x="314" y="340"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.3/@anchors.3" end="//@children.10/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:instance_4.Y-I16Console_1.Int16_IN"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.4"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -990,7 +919,7 @@
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.3/@anchors.6" end="//@children.7/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:instance_4.tata-TokensCounter_1.u8_input"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.5"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -999,13 +928,13 @@
         <points x="-12" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
-    <bendpoints x="843" y="325"/>
-    <bendpoints x="843" y="390"/>
+    <bendpoints x="828" y="325"/>
+    <bendpoints x="828" y="390"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.3/@anchors.8" end="//@children.9/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:instance_4.POIU-TokensCounter_2.u8_input"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.6"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -1014,13 +943,13 @@
         <points x="-12" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
-    <bendpoints x="828" y="355"/>
-    <bendpoints x="828" y="500"/>
+    <bendpoints x="813" y="355"/>
+    <bendpoints x="813" y="500"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.1/@anchors.0" end="//@children.4/@anchors.2">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:Int16Prod_3.i16Out-instance_5.Y_UP_LEFT"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.7"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -1029,13 +958,11 @@
         <points x="-12" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
-    <bendpoints x="299" y="170"/>
-    <bendpoints x="299" y="310"/>
   </connections>
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.4/@anchors.5" end="//@children.3/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:instance_5.MPR-instance_4.X"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.8"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -1048,7 +975,7 @@
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.4/@anchors.6" end="//@children.3/@anchors.1">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:instance_5.PORT_LONG_32-instance_4.IN2"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.9"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -1061,7 +988,7 @@
   <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.4/@anchors.7" end="//@children.3/@anchors.2">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:instance_5.ANOTHER_VERY_LONG_PORT-instance_4.IN3"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.10"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -1071,10 +998,10 @@
       </graphicsAlgorithm>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.12/@anchors.0" end="//@children.5/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.11/@anchors.0" end="//@children.5/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:Int16Prod_1.i16Out-internal_2.IN1"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.11"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -1084,10 +1011,10 @@
       </graphicsAlgorithm>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.13/@anchors.0" end="//@children.5/@anchors.1">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.12/@anchors.0" end="//@children.5/@anchors.1">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:Int16Prod_2.i16Out-internal_2.IN2"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.12"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -1099,40 +1026,10 @@
     <bendpoints x="148" y="170"/>
     <bendpoints x="148" y="75"/>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.11/@anchors.2" end="//@children.4/@anchors.3">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.5/@anchors.2" end="//@children.13/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:internal_1.OUT1-instance_5.AVAIL"/>
-    </link>
-    <connectionDecorators visible="true" locationRelative="true" location="1.0">
-      <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
-        <points/>
-        <points x="-12" y="5"/>
-        <points x="-12" y="-5"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <bendpoints x="299" y="435"/>
-    <bendpoints x="299" y="325"/>
-  </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.11/@anchors.3" end="//@children.4/@anchors.4">
-    <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
-    <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:internal_1.OUT2-instance_5.PRED_MODE"/>
-    </link>
-    <connectionDecorators visible="true" locationRelative="true" location="1.0">
-      <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
-        <points/>
-        <points x="-12" y="5"/>
-        <points x="-12" y="-5"/>
-      </graphicsAlgorithm>
-    </connectionDecorators>
-    <bendpoints x="314" y="450"/>
-    <bendpoints x="314" y="340"/>
-  </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.5/@anchors.2" end="//@children.14/@anchors.0">
-    <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
-    <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:internal_2.OUT1-container.INPUT0"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.13"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -1142,10 +1039,10 @@
       </graphicsAlgorithm>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.5/@anchors.3" end="//@children.14/@anchors.1">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.5/@anchors.3" end="//@children.13/@anchors.1">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:internal_2.OUT2-container.INPUT1"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.14"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -1155,10 +1052,10 @@
       </graphicsAlgorithm>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.14/@anchors.2" end="//@children.6/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.13/@anchors.2" end="//@children.6/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:container.OUTPUT0-I16Console_2.Int16_IN"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.15"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -1168,10 +1065,10 @@
       </graphicsAlgorithm>
     </connectionDecorators>
   </connections>
-  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.14/@anchors.3" end="//@children.8/@anchors.0">
+  <connections xsi:type="pi:FreeFormConnection" visible="true" active="true" start="//@children.13/@anchors.3" end="//@children.8/@anchors.0">
     <graphicsAlgorithm xsi:type="al:Polyline" lineWidth="1" filled="false" transparency="0.0" style="//@styles.0/@styles.4"/>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@connections:container.OUTPUT1-U16Console.u16In"/>
+      <businessObjects href="multi_instances_refs.xdf#//@edges.16"/>
     </link>
     <connectionDecorators visible="true" locationRelative="true" location="1.0">
       <graphicsAlgorithm xsi:type="al:Polygon" lineWidth="1" filled="true" lineVisible="false" transparency="0.0" style="//@styles.0/@styles.4">
@@ -1180,8 +1077,8 @@
         <points x="-12" y="-5"/>
       </graphicsAlgorithm>
     </connectionDecorators>
-    <bendpoints x="623" y="75"/>
-    <bendpoints x="623" y="170"/>
+    <bendpoints x="608" y="75"/>
+    <bendpoints x="608" y="170"/>
   </connections>
   <colors red="227" green="238" blue="249"/>
   <colors red="255" green="255" blue="255"/>

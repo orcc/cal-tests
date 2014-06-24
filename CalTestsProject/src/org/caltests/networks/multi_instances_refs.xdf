@@ -33,9 +33,6 @@
     <Instance id="I16Console_1">
         <Class name="org.caltests.resources.consumers.Int16Console"/>
     </Instance>
-    <Instance id="internal_1">
-        <Class name="org.caltests.networks.internal"/>
-    </Instance>
     <Instance id="Int16Prod_1">
         <Class name="org.caltests.resources.producers.Int16Producer"/>
     </Instance>
@@ -63,8 +60,6 @@
     <Connection dst="instance_4" dst-port="IN3" src="instance_5" src-port="ANOTHER_VERY_LONG_PORT"/>
     <Connection dst="internal_2" dst-port="IN1" src="Int16Prod_1" src-port="i16Out"/>
     <Connection dst="internal_2" dst-port="IN2" src="Int16Prod_2" src-port="i16Out"/>
-    <Connection dst="instance_5" dst-port="AVAIL" src="internal_1" src-port="OUT1"/>
-    <Connection dst="instance_5" dst-port="PRED_MODE" src="internal_1" src-port="OUT2"/>
     <Connection dst="container" dst-port="INPUT0" src="internal_2" src-port="OUT1"/>
     <Connection dst="container" dst-port="INPUT1" src="internal_2" src-port="OUT2"/>
     <Connection dst="I16Console_2" dst-port="Int16_IN" src="container" src-port="OUTPUT0"/>
