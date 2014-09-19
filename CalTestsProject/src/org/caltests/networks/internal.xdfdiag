@@ -27,7 +27,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="internal.xdf#//@vertices.4"/>
+      <businessObjects href="internal.xdf#//@instances.0"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.0" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -72,7 +72,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="internal.xdf#//@vertices.5"/>
+      <businessObjects href="internal.xdf#//@instances.1"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.1" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -109,7 +109,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="internal.xdf#//@vertices.0"/>
+      <businessObjects href="internal.xdf#//@inputs.0"/>
     </link>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.0"/>
   </children>
@@ -127,7 +127,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="internal.xdf#//@vertices.1"/>
+      <businessObjects href="internal.xdf#//@inputs.1"/>
     </link>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.1"/>
   </children>
@@ -145,7 +145,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="internal.xdf#//@vertices.2"/>
+      <businessObjects href="internal.xdf#//@outputs.0"/>
     </link>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.2"/>
   </children>
@@ -163,7 +163,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="internal.xdf#//@vertices.3"/>
+      <businessObjects href="internal.xdf#//@outputs.1"/>
     </link>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.3"/>
   </children>
@@ -267,7 +267,7 @@
     </styles>
     <styles background="//@colors.2" foreground="//@colors.2" lineWidth="2" lineStyle="UNSPECIFIED" lineVisible="true" id="CONNECTION" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED"/>
   </styles>
-  <styles foreground="//@colors.2" lineStyle="UNSPECIFIED" filled="false" id="COMMON_TEXT" font="//@fonts.0" verticalAlignment="ALIGNMENT_MIDDLE" angle="0">
+  <styles foreground="//@colors.2" lineStyle="UNSPECIFIED" filled="false" id="COMMON_TEXT" font="//@fonts.0" verticalAlignment="ALIGNMENT_MIDDLE">
     <styles lineStyle="UNSPECIFIED" filled="false" id="INSTANCE_TEXT" font="//@fonts.1" verticalAlignment="ALIGNMENT_MIDDLE"/>
     <styles foreground="//@colors.2" lineStyle="UNSPECIFIED" filled="false" id="INSTANCE_PORT_TEXT" horizontalAlignment="UNSPECIFIED" verticalAlignment="ALIGNMENT_MIDDLE"/>
     <styles lineStyle="UNSPECIFIED" filled="false" id="PORT_TEXT" verticalAlignment="ALIGNMENT_MIDDLE"/>

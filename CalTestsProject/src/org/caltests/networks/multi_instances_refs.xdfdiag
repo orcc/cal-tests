@@ -23,7 +23,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@vertices.0"/>
+      <businessObjects href="multi_instances_refs.xdf#//@instances.0"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.2" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -54,7 +54,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@vertices.1"/>
+      <businessObjects href="multi_instances_refs.xdf#//@instances.1"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.7" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -85,7 +85,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@vertices.2"/>
+      <businessObjects href="multi_instances_refs.xdf#//@instances.2"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.3" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -152,7 +152,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@vertices.3"/>
+      <businessObjects href="multi_instances_refs.xdf#//@instances.3"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.8" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -301,7 +301,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@vertices.4"/>
+      <businessObjects href="multi_instances_refs.xdf#//@instances.4"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.0" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -414,7 +414,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@vertices.5"/>
+      <businessObjects href="multi_instances_refs.xdf#//@instances.5"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.11" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -475,7 +475,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@vertices.6"/>
+      <businessObjects href="multi_instances_refs.xdf#//@instances.6"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.15" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -506,7 +506,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@vertices.7"/>
+      <businessObjects href="multi_instances_refs.xdf#//@instances.7"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.5" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -537,7 +537,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@vertices.8"/>
+      <businessObjects href="multi_instances_refs.xdf#//@instances.8"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.16" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -568,7 +568,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@vertices.9"/>
+      <businessObjects href="multi_instances_refs.xdf#//@instances.9"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.6" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -599,7 +599,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@vertices.10"/>
+      <businessObjects href="multi_instances_refs.xdf#//@instances.10"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.4" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -630,7 +630,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@vertices.11"/>
+      <businessObjects href="multi_instances_refs.xdf#//@instances.11"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.11" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -661,7 +661,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@vertices.12"/>
+      <businessObjects href="multi_instances_refs.xdf#//@instances.12"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" outgoingConnections="//@connections.12" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -704,7 +704,7 @@
       </graphicsAlgorithmChildren>
     </graphicsAlgorithm>
     <link>
-      <businessObjects href="multi_instances_refs.xdf#//@vertices.13"/>
+      <businessObjects href="multi_instances_refs.xdf#//@instances.13"/>
     </link>
     <anchors xsi:type="pi:FixPointAnchor" visible="true" active="true" incomingConnections="//@connections.13" useAnchorLocationAsConnectionEndpoint="true">
       <properties key="XDF_ID" value="INSTANCE_PORT"/>
@@ -839,7 +839,7 @@
     </styles>
     <styles background="//@colors.2" foreground="//@colors.2" lineWidth="2" lineStyle="UNSPECIFIED" lineVisible="true" id="CONNECTION" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED"/>
   </styles>
-  <styles foreground="//@colors.2" lineStyle="UNSPECIFIED" filled="false" id="COMMON_TEXT" font="//@fonts.0" verticalAlignment="ALIGNMENT_MIDDLE" angle="0">
+  <styles foreground="//@colors.2" lineStyle="UNSPECIFIED" filled="false" id="COMMON_TEXT" font="//@fonts.0" verticalAlignment="ALIGNMENT_MIDDLE">
     <styles lineStyle="UNSPECIFIED" filled="false" id="INSTANCE_TEXT" font="//@fonts.1" verticalAlignment="ALIGNMENT_MIDDLE"/>
     <styles foreground="//@colors.2" lineStyle="UNSPECIFIED" filled="false" id="INSTANCE_PORT_TEXT" horizontalAlignment="UNSPECIFIED" verticalAlignment="ALIGNMENT_MIDDLE"/>
   </styles>
